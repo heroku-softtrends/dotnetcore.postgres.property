@@ -1,4 +1,4 @@
-# ASP.NET Core for Heroku Postgres
+# .NET Core Buildpack with Heroku Postgres Support (Heroku Button)
 
 This uses the .Net Core Buildpack provided by Softtends and adds full support for Heroku Postgres<br>
 
