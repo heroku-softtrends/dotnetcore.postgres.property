@@ -1,6 +1,6 @@
-# ASP.NET Core MVC Sample app for Heroku
+# ASP.NET Core for Heroku Postgres
 
-This uses the .Net Core Buildpack provided by Softtends<br>
+This uses the .Net Core Buildpack provided by Softtends and adds full support for Heroku Postgres<br>
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
