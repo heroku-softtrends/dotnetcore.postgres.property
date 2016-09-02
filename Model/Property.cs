@@ -49,11 +49,11 @@ namespace PostgresSampleApp.Model
                     {
                         cmd.ExecuteNonQuery();
                     }
-                    using (cmd = new NpgsqlCommand("CREATE EXTENSION 'cube';", conn))
+                    using (cmd = new NpgsqlCommand("CREATE EXTENSION \"cube\";", conn))
                     {
                         cmd.ExecuteNonQuery();
                     }
-                    using (cmd = new NpgsqlCommand("CREATE EXTENSION 'earthdistance';", conn))
+                    using (cmd = new NpgsqlCommand("CREATE EXTENSION \"earthdistance\";", conn))
                     {
                         cmd.ExecuteNonQuery();
                     }
