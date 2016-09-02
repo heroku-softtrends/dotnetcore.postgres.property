@@ -1,16 +1,5 @@
 {
   "name": "ASP.NET Core Mvc Website",
-  "scripts": {
-   "postdeploy": "heroku pg:backups restore 'https://xfrtu.s3.amazonaws.com/85255bfb-853b-4f1a-8c43-f70b49133a05/2016-09-02T09%3A58%3A36Z/33085f59-c1e7-4ea5-85e8-d729f9ed08e7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJQE5E3XOYH2LQHPQ%2F20160902%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20160902T095947Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=157a0dcf5653582f749f3ea12e03c4b728ae7cd328381c71824a070f70f95242' —app $HEROKU_APP_NAME postgresql-dimensional-91684 --confirm $HEROKU_APP_NAME"
-  },
-  "env": {
-      "DATABASE_URL": {
-          "required": true
-      },
-      "HEROKU_APP_NAME": {
-          "required": true
-      }
-  },
   "description": "ASP.NET Core mvc website using Asp.Net Core",
   "website": "http://www.softtrends.com/",
   "repository": "https://github.com/heroku-softtrends/dotnetcore.postgress.sample",
