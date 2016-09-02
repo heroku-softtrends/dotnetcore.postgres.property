@@ -45,7 +45,7 @@ namespace PostgresSampleApp.Model
                 {
                     conn.Open();
                     //StringBuilder qry = "";
-                    using (cmd = new NpgsqlCommand("CREATE TABLE IF NOT EXISTS public.property(propertyid bigint NOT NULL,description text,address varchar(700) NOT NULL,state varchar(100),country varchar(100),subdivision varchar(200),onsaledate date,price bigint,gpslat decimal(17, 10),gpslong decimal(17, 10),point polygon,CONSTRAINT property_pkey PRIMARY KEY(propertyid))", conn))
+                    using (cmd = new NpgsqlCommand("CREATE TABLE IF NOT EXISTS public.property(propertyid bigint NOT NULL,description text,address varchar(700) NOT NULL,state varchar(100),country varchar(100),subdivision varchar(200),onsaledate date,price bigint,gpslat decimal(17, 10),gpslong decimal(17, 10),point polygon,CONSTRAINT property_pkey PRIMARY KEY(propertyid));CREATE EXTENSION 'cube';CREATE EXTENSION 'earthdistance';", conn))
                     {
                         cmd.ExecuteNonQuery();
                     }
