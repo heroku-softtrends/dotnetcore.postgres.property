@@ -1,11 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace WebApplication
+namespace PostgresSampleApp
 {
     public class Program
     {
@@ -16,7 +16,7 @@ namespace WebApplication
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseUrls(args[0])
+                .UseUrls(string.Format("{0}", args[0]))
                 .Build();
 
             host.Run();
