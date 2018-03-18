@@ -1,5 +1,5 @@
 {
-  "name": "ASP.NET Core Mvc Website",
+  "name": "ASP.NET Core Sample using Postgres",
   "description": "ASP.NET Core mvc website using Asp.Net Core",
   "website": "http://www.softtrends.com/",
   "repository": "https://github.com/heroku-softtrends/dotnetcore.postgress.sample",
