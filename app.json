@@ -9,5 +9,6 @@
     {
       "url": "https://github.com/heroku-softtrends/dotnetcore.postgress.buildpack.git"
     }
-  ]
+  ],
+  "stack": "heroku-16"
 }
