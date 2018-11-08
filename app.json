@@ -1,5 +1,5 @@
 {
-  "name": "ASP.NET Core 1.x Postgres Sample",
+  "name": "ASPNETCore 1.x Postgres Sample",
   "description": "ASP.NET Core 1.x with Heroku Postgres Sample",
   "stack": "heroku-16",
   "website": "http://www.softtrends.com/",
